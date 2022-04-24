@@ -12,7 +12,7 @@ const wapi = wapiInit("https://auth.web10.app");
 const sirs = [
     {
         service: DATABASE_NAME,
-        cross_origins: ["localhost"],
+        cross_origins: ["oliver-terrell.github.io", "localhost"],
     },
 ];
 wapi.SMROnReady(sirs, []);
